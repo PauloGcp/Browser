@@ -1,3 +1,4 @@
+
 class Verificar:
     def __init__(self,entrada):
         self.__entrada = entrada

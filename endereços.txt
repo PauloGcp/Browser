@@ -1,10 +1,12 @@
-ab
-cd
-ef
-
-www.ifpb.edu.br
-www.yt.com
-
 #back
 #sair
-#showlist
+#showhist
+#add <url>
+www.ifpb.edu.br
+www.yt.com
+www.ab
+www.cd
+www.ef
+
+www.g1.com
+www.facebook.com
