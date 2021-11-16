@@ -8,3 +8,4 @@ www.yt.com
 #back
 #sair
 #showlist
+#add <url>
