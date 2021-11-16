@@ -1,4 +1,4 @@
-
+#*classe documentada no código principal*
 class Verificar:
     def __init__(self,entrada):
         self.__entrada = entrada

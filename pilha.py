@@ -1,4 +1,4 @@
-
+#Classe destinada a criação do nó utilizado na pilha encadeada.
 class No:
     def __init__(self, valor):
         self.__valor = valor
@@ -15,12 +15,14 @@ class No:
     
     def set_proximo(self, proximo):
         self.__proximo = proximo
-        
+
+
+#Classe que determina a exceção específica da pilha
 class PilhaException(Exception):
     def __init__(self,msg):
         super().__init__(msg)
 
-
+#Classe de criação da pilha encadeada.
 class PilhaEncadeada:
     def __init__(self):
         self.__topo = None

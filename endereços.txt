@@ -1,12 +1,12 @@
 #back
 #sair
 #showhist
-#add <url>
-www.ifpb.edu.br
-www.yt.com
-www.ab
-www.cd
-www.ef
-
-www.g1.com
+#add
+#mostrar
+www.globo.com
+www.suap.ifpb.edu.br
+www.instagram.com
 www.facebook.com
+www.netflix.com
+www.disneyplus.com
+www.ifpb.edu.br/tsi
