@@ -1,5 +1,5 @@
 from pilha import PilhaException
-from fun_var import p, hist, sair
+from fun_var import p, hist, sair, endereços
 
 class Switch:
     def __init__(self,url):
