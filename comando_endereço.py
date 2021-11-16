@@ -1,5 +1,5 @@
 from pilha import PilhaException
-from fun_var import p, hist, sair
+from fun_var import p, hist, sair, endereços
 
 class Switch:
     def __init__(self,url):
@@ -20,8 +20,14 @@ class Switch:
                 sair.insert(0, self.__comando)
 
             if self.__comando[1:] == "add <url>":
-                pass
-            if self.__comando[1:] == "showlist":
+                per = str(input('Qual endereco deseja adicionar? '))
+                if per not in endereços:
+                    with open('trabalho/endereços.txt', 'a') as arquivo:
+                        arquivo.write(str(per) + '\n')
+                    print('Página adicionada com sucesso!')
+                else:
+                    print('A página não foi adicionada, pois já existe.')
+            if self.__comando[1:] == "showhist":
                 print(f"Histórico de navegação: {hist}")   
 
         if self.__comando[0] != "#":

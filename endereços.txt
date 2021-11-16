@@ -7,4 +7,5 @@ www.yt.com
 
 #back
 #sair
-#showlist
+#showhist
+#add <url>
