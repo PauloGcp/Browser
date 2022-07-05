@@ -17,5 +17,5 @@ Classe de verificação em relação a existência de determinada url no arquivo
 
 Classe de execução das instruções correspondentes ao input do usuário: "comando_endereço.py"
 
-Obs.: Projeto desenvolvido no VSCode. Recomenda-se a execução do código principal desde que os arquivos estejam na mesma pasta para evitar conflito no direcionamento de diretórios internos.
+
 
